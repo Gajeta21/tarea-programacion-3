@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: yellow;
+}
+
+.title {
+    margin-top: 25px;
+    text-align: center;
+    color: blueviolet;
+}
+
+.font {
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+.fa-address-book {
+    font-size: 5em;
+}
+
+.row {
+    margin-top: 25px;
+}
+
+.col1,
+.col2 {
+    background: purple;
+    margin: 2px;
+    padding: 5px;
+    height: 600px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.form{
+    margin-top: 50px;
+}
+
+.imp1 input, .imp2 input, .imp3 input {
+    padding: 8px;
+    margin: 30px;
+    border: 2px purple solid;
+    border-radius: 3px; 
+    font-family: 'Open Sans',
+    sans-serif;
+}
+
+input{
+    width: 400px;
+    height: 20px;
+}
+
+.col1{
+    width: 490px;
+}
+.col2{
+    position: relative;
+    bottom: 410px;
+    left: 510px;
+    width: 825px;
+}
+
+.contacts {
+    width: 200px;
+    height: 25px;
+}
+
+.contacts:hover {
+    border: 1px skyblue solid;
+}
+
+.info-contact{
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: scroll;
+    overflow: auto;
+    height: 250px;
+    overflow-x:hidden;
+}
+td,
+th {
+    border: 1px solid gray;
+    padding: 8px;
+}
+thead{
+    background: black;
+    color: white;
+}
+
+tbody tr td{
+    text-align: start;
+    font-size: 11.6px;
+}
+
+.btn-enviar {
+    margin-top: 15px;
+    border: 1px skyblue solid;
+    border-radius: 3px;
+    width: 400px;
+    height: 30px;
+    color: white;
+    background: black ;
+}
+
+.btn-enviar:hover {
+    cursor: pointer;
+    border: 1px red solid;
+    background: red;
+    
+} 
